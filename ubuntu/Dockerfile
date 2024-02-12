@@ -33,7 +33,7 @@ RUN dpkg --add-architecture i386 \
         && apt update -y \
         && apt install -y --install-recommends winehq-stable
        
-RUN wget -O /usr/local/bin/winetricks https://ghproxy.com/https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks \
+RUN wget -O /usr/local/bin/winetricks https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks \
         && chmod a+x /usr/local/bin/winetricks
         
 RUN chmod a+x /usr/local/bin/*
