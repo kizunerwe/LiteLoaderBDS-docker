@@ -9,14 +9,18 @@ https://github.com/dmblock/LiteLoaderBDS-docker
 
 # 维护内容
 
-去掉github加速，因为加速官网不支持ssh连接，无法跑通
+去掉github加速，因为加速链接不支持ssh连接，无法跑通
+
+贴一句原话:
+
+注意：不支持 SSH Key 方式 git clone 下载.
 
 去掉之后可以成功构建，不过很慢，能通就没啥大问题
 
-# 本仓库其实作用不大
-
-构建的时候还是去访问的原仓库，无所谓了能跑就行
-
 # 安装教程
+⚠️看教程的时候请注意替换仓库地址⚠️
+
 Minebbs传送门
 https://www.minebbs.com/resources/liteloaderbds-docker-linux-docker-liteloader.5458/
+
+
